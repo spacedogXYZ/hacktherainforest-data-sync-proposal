@@ -26,6 +26,7 @@ After syncing recent monitor observations, the manager can export their current 
 
 ![user-scenario-diagram](user-scenario.pdf?raw=true)
 
+
 ## Communication Protocol
 Ideally the user should not have to initiate a sync manually, the application should identify peers, copy records, and resolve conflicts manually.
 
@@ -54,4 +55,10 @@ A potentially simpler, but more resource intensive approach is to hash each reco
 _Camilo, add more detail here_ 
 
 
+## Database Design
+
+_TBD_
+
 ## User Interface 
+
+_TDB_
