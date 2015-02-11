@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/underscore.js"></script>
+    <script src="js/vendor/bootstrap.js"></script>
+    <script src="js/simple-sync.js"></script>
+    <script src="js/app.js"></script>
+
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple Sync Demo</h1>
+      <h3>Network:</h3>
+      <ul id="interfaces">
+        <li><label>Local: <input id="local" readonly="readonly" /></label></li>
+        <li><label>Server: <input id="server" /><label></li>
+      </ul>
+      <h3>Data:</h3>
+      <form method="post">
+        <textarea></textarea>
+        <br>
+        <a class="btn btn-success" id="connect" href="#" >Connect <span class="glyphicon glyphicon-phone"></span></a>
+        <a class="btn btn-primary" id="sync" href="#" >Sync <span class="glyphicon glyphicon-transfer"></span></a>
+        <a class="btn btn-info" id="new" href="#">New <span class="glyphicon glyphicon-pencil"></span></a>
+      </form>
+    </div>
+  </body>
+</html>

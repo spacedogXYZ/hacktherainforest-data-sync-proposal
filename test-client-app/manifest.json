@@ -1,0 +1,35 @@
+{
+  "name": "Test Sync App",
+  "description": "Test Chrome CouchDB Syncing",
+  "version": "0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["js/background.js"]
+    }
+  },
+  "icons": { "16": "img/sync-16.png", "128": "img/sync-128.png" },
+  "permissions": [
+    "app.window",
+    "system.network",
+    {"fileSystem":
+      ["write", "retainEntries", "directory"]
+    },
+    "notifications", 
+    "storage",
+    "contextMenus",
+    "http://*/*"
+  ],
+  "sockets": {
+    "tcp": {
+      "connect": "*"
+    },
+    "tcpServer" : {
+      "listen": "*"
+    },
+    "udp": {
+      "send": "*:*",
+      "bind": "*:*"
+    }
+  }
+}
