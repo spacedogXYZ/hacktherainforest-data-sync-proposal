@@ -24,7 +24,7 @@ The manager can view progress and control the data-sync service with a clear web
 
 After syncing recent monitor observations, the manager can export their current database to flat json and media files on an attached drive, for transportation to town, further analysis and syncing, and optional upload to the internet.
 
-![user-scenario-diagram](user-scenario.pdf?raw=true)
+![user-scenario-diagram](user-scenario.png?raw=true)
 
 
 ## Communication Protocol
