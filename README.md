@@ -6,7 +6,7 @@ Offline Data Sync Proposal
 
 Feb 2015 - Tarapoto, Peru
 
-* Camilo @dedalo
+* Camilo @SeguridadBlanca
 * Josh @jlev
 
 
